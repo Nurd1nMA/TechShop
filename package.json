@@ -1,0 +1,9 @@
+{
+  "name": "techshop",
+  "version": "1.0.0",
+  "description": "Магазин компьютерной периферии",
+  "scripts": {
+    "dev": "node server.js",
+    "start": "node server.js"
+  }
+}
