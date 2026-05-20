@@ -39,12 +39,10 @@
   </div>
 </div>
 
-<!-- TOAST -->
 <div class="toast" id="toast"></div>
 
 <script src="js/auth.js"></script>
 <script>
-  // Redirect if already logged in
   if (Auth.getCurrentUser()) window.location.href = 'index.html';
 
   function showAlert(type, msg) {

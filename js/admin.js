@@ -6,7 +6,6 @@ document.addEventListener('DOMContentLoaded', () => {
   }
   document.getElementById('admin-username').textContent = '👑 ' + user.username;
 
-  // Seed default products if none exist yet
   if (!localStorage.getItem('techshop_products')) {
     const defaults = [
       { id: 1,  name: 'Intel Core i9-13900K',       category: 'Процессор',          price: 145000, emoji: '🔵', desc: '24 ядра, 5.8 GHz, LGA1700' },
