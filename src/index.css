@@ -195,20 +195,6 @@ body {
   border-radius: 16px;
   padding: 2rem;
 }
-.api-tag {
-  display: inline-flex;
-  align-items: center;
-  gap: 0.4rem;
-  background: var(--primary);
-  color: #fff;
-  padding: 0.3rem 0.8rem;
-  border-radius: 5px;
-  font-size: 0.7rem;
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 0.5px;
-  margin-bottom: 0.75rem;
-}
 
 .cart-overlay {
   position: fixed; inset: 0;
@@ -330,12 +316,6 @@ body {
 .alert.show { display: block; }
 .alert-error { background: #fee2e2; color: #b91c1c; border: 1px solid #fca5a5; }
 .alert-success { background: #d1fae5; color: #065f46; border: 1px solid #6ee7b7; }
-.hint-box {
-  background: #f0f9ff; border: 1px solid #bae6fd;
-  border-radius: 8px; padding: 0.75rem 1rem;
-  font-size: 0.8rem; color: #0369a1;
-  margin-top: 1.5rem; text-align: center;
-}
 
 .admin-wrap { display: flex; min-height: 100vh; }
 .admin-side {
@@ -378,8 +358,6 @@ body {
 }
 .stat-val { font-size: 2rem; font-weight: 800; color: var(--primary); }
 .stat-lbl { color: var(--muted); font-size: 0.83rem; margin-top: 0.25rem; }
-.admin-panel { display: none; }
-.admin-panel.active { display: block; }
 .admin-box {
   background: #fff; border-radius: 12px;
   box-shadow: 0 1px 4px rgba(0,0,0,0.07);
